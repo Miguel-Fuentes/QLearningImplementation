@@ -1,5 +1,10 @@
-eclass QBlock(object):
+class QBlock(object):
     """docstring for QBlock"""
+    QDict = {}
+    R = 0
+    exitBlock = False
+    wall = False
+
     def __init__(self, qdict={'N': 0, 'E': 0, 'S': 0, 'W': 0}, goodexit=False, badexit=False, _wall=False):
         self.QDict = qdict
         self.exitBlock = goodexit or badexit
@@ -12,5 +17,3 @@ eclass QBlock(object):
         	self.R = 1
         elif badexit:
         	self.R = -1
-        else:
-        	self.R = 0

@@ -14,7 +14,7 @@ This lab was written in python 3.x so to run it you must have python
 3) Run "QMain.py" with the command "python QMain.py"
 
 	-- If that doesn't work the right command on your computer
-	   might be "python3 PancakeMain.py"
+	   might be "python3 QMain.py"
 
 4) You will be prompted to give input as described in the assignment
 
